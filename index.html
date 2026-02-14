@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhishek weds Kanika</title>
+  <meta name="description" content="You are cordially invited to the wedding celebration of Abhishek &amp; Kanika.">
+
+  <!-- Favicons -->
+  <link rel="icon" href="https://framerusercontent.com/images/VRr5oPbK8EC2e8xlsQcVIsS47c.png" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="https://framerusercontent.com/images/vqNg8mNroPNlpAOMAK02feK2gc.png" media="(prefers-color-scheme: dark)">
+
+  <!-- Google Fonts matching original -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant+Infant:wght@400&family=Cormorant+Unicase:wght@400&family=Cormorant+Upright:wght@400;500&family=Gotu&family=Manrope:wght@400;500;600;700;800&family=Yaldevi:wght@400&family=Aboreto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- MUSIC PLAYER (floating) -->
+  <div class="music-player" id="musicPlayer">
+    <audio id="bgMusic" src="https://framerusercontent.com/assets/q8x7MYVF61gOLfkcxdG7dlXjxw.mp3" loop preload="metadata"></audio>
+    <button class="music-btn" id="musicBtn" aria-label="Toggle music">
+      <svg class="music-icon music-icon--play" viewBox="0 0 16 16" width="16" height="16" fill="white"><path d="M5.379 1.292C4.968 1.033 4.449 1.017 4.023 1.251 3.598 1.486 3.333 1.928 3.333 2.41v11.18c0 .482.265.924.69 1.16.426.234.945.218 1.356-.042l9.292-5.59c.39-.234.629-.654.629-1.118s-.24-.884-.63-1.118L5.38 1.292z"/></svg>
+      <svg class="music-icon music-icon--pause" viewBox="0 0 16 16" width="16" height="16" fill="white" style="display:none"><rect x="3" y="2" width="4" height="12" rx="1"/><rect x="9" y="2" width="4" height="12" rx="1"/></svg>
+    </button>
+  </div>
+
+  <!-- ======================== -->
+  <!-- SECTION 1: HERO / MOUNTAINS -->
+  <!-- ======================== -->
+  <section class="hero" id="hero">
+    <!-- Background gradient -->
+    <div class="hero__bg"></div>
+
+    <!-- Mountain landscape layers -->
+    <div class="hero__landscape">
+      <!-- Moon -->
+      <div class="hero__moon">
+        <img src="https://framerusercontent.com/images/LQC5ElMk4rqJ4rtBP5vF6B4.png?width=2842" alt="" loading="eager">
+      </div>
+
+      <!-- Stars layer -->
+      <div class="hero__stars" id="heroStars"></div>
+
+      <!-- Hills / Mountains -->
+      <div class="hero__hills">
+        <img src="https://framerusercontent.com/images/NCJNcvJZC0xrKHOBNNDyEtVQ8a8.png?width=3208" alt="" class="hero__hills-img" loading="eager">
+      </div>
+
+      <!-- Tree left -->
+      <div class="hero__tree hero__tree--left">
+        <img src="https://framerusercontent.com/images/wKiH01QNP8DMVItVBJyF9tbg.png?width=2892" alt="" loading="eager">
+      </div>
+
+      <!-- Tree right -->
+      <div class="hero__tree hero__tree--right">
+        <img src="https://framerusercontent.com/images/64NTAFiZlzU2kGaVG82xflIhbqk.png?width=2892" alt="" loading="eager">
+      </div>
+
+      <!-- Hot air balloon -->
+      <div class="hero__balloon">
+        <img src="https://framerusercontent.com/images/FZrF0IYCyry5YbaC0YGwqR4xmrU.png?width=1892" alt="" loading="lazy">
+      </div>
+    </div>
+
+    <!-- Couple names -->
+    <div class="hero__content">
+      <h1 class="hero__name hero__name--groom">Abhishek</h1>
+      <p class="hero__weds">weds</p>
+      <h1 class="hero__name hero__name--bride">Kanika</h1>
+    </div>
+
+    <!-- Bottom decorative flowers -->
+    <div class="hero__bottom-flowers">
+      <img src="https://framerusercontent.com/images/Ek4UmYDGiGa27intXXkAykog.png?width=1605" alt="">
+    </div>
+  </section>
+
+  <!-- ======================== -->
+  <!-- SECTION 2: INVITATION CARD -->
+  <!-- ======================== -->
+  <section class="invitation" id="invitation">
+    <!-- Paper borders -->
+    <div class="invitation__border invitation__border--left">
+      <img src="https://framerusercontent.com/images/SPr0bvMk9Lu3lQOpXzLoknBPaJo.png?width=1596" alt="">
+    </div>
+    <div class="invitation__border invitation__border--right">
+      <img src="https://framerusercontent.com/images/gpuyLKzQFz8PbRrE1RR3LfnRWw.png?width=1814" alt="">
+    </div>
+
+    <!-- Ganesha icon -->
+    <div class="invitation__ganesha">
+      <img src="https://framerusercontent.com/images/PyU8hByuFeV32eoPq4qDye3jQ18.png?width=417&height=418" alt="Ganesha">
+    </div>
+
+    <!-- Invitation text -->
+    <div class="invitation__content">
+      <p class="invitation__om">ॐ श्री गणेशाय नम</p>
+
+      <div class="invitation__blessing">
+        <p>With the heavenly blessings of</p>
+        <p class="invitation__elders">Smt. Lata Devi &amp; Sm. Kamal Kapoor</p>
+      </div>
+
+      <div class="invitation__divider">——</div>
+
+      <p class="invitation__parents">Mrs. Reena &amp; Mr. Rajiv Kapoor</p>
+
+      <p class="invitation__invite-label">INVITE</p>
+
+      <p class="invitation__body">You to join us in the wedding celebrations of</p>
+
+      <div class="invitation__names">
+        <h2 class="invitation__couple-name">Abhishek</h2>
+        <span class="invitation__amp">&amp;</span>
+        <h2 class="invitation__couple-name">Kanika</h2>
+      </div>
+
+      <p class="invitation__daughter">
+        Daughter of<br>
+        <strong>Mrs. Shalini &amp; Mr. Aakash Mittal,</strong>
+      </p>
+
+      <p class="invitation__following">On the following events</p>
+    </div>
+
+    <!-- Leaf decorations -->
+    <div class="invitation__leaves invitation__leaves--left">
+      <img src="https://framerusercontent.com/images/wHXdUM5TWv2v0SV6GoD6XjI7A8.png?width=1130" alt="">
+    </div>
+    <div class="invitation__leaves invitation__leaves--right">
+      <img src="https://framerusercontent.com/images/yLyHOR0RXbyZbQFfhrMI61lFHG4.png?width=713" alt="">
+    </div>
+
+    <!-- Ganesha vectors on sides -->
+    <div class="invitation__side-art invitation__side-art--left">
+      <img src="https://framerusercontent.com/images/nANJUUA3JunmZmLf3Peu7TbmMU.png?width=839" alt="">
+    </div>
+    <div class="invitation__side-art invitation__side-art--right">
+      <img src="https://framerusercontent.com/images/zGRmbM0Kc7cI5GZh2XKWu9xP920.png?width=839" alt="">
+    </div>
+
+    <!-- Bottom flowers on invitation -->
+    <div class="invitation__bottom-decor">
+      <img src="https://framerusercontent.com/images/gBnMB6ghHljVUqx9JmFOWkp7Yh4.png?width=1605" alt="">
+    </div>
+  </section>
+
+  <!-- ======================== -->
+  <!-- SECTION 3: EVENT CARDS -->
+  <!-- ======================== -->
+  <section class="events" id="events">
+    <div class="events__grid">
+
+      <div class="events__card">
+        <div class="events__card-img">
+          <img src="https://framerusercontent.com/images/BS00HRHT5NWobvzo4WjW9UA763g.png?width=380" alt="Mehendi">
+        </div>
+        <h3 class="events__card-name">Mehendi</h3>
+        <p class="events__card-date">Friday, March 7th 2026</p>
+        <p class="events__card-venue">The Savoy, Mussoorie</p>
+        <p class="events__card-time">6pm Onwards</p>
+        <a href="https://maps.google.com/?q=The+Savoy+Mussoorie" target="_blank" rel="noopener" class="events__card-route">See the route</a>
+      </div>
+
+      <div class="events__card">
+        <div class="events__card-img">
+          <img src="https://framerusercontent.com/images/NmVSVg1aTrcYbgmRoP9eOE9gpw.png?width=372" alt="Haldi">
+        </div>
+        <h3 class="events__card-name">Haldi</h3>
+        <p class="events__card-date">Friday, March 8th 2026</p>
+        <p class="events__card-venue">The Savoy, Mussoorie</p>
+        <p class="events__card-time">6pm Onwards</p>
+        <a href="https://maps.google.com/?q=The+Savoy+Mussoorie" target="_blank" rel="noopener" class="events__card-route">See the route</a>
+      </div>
+
+      <div class="events__card">
+        <div class="events__card-img">
+          <img src="https://framerusercontent.com/images/LGk7fDm17zukhruB2ql24Jgzaq0.png?width=458" alt="Cocktail">
+        </div>
+        <h3 class="events__card-name">Cocktail</h3>
+        <p class="events__card-date">Friday, March 8th 2026</p>
+        <p class="events__card-venue">The Savoy, Mussoorie</p>
+        <p class="events__card-time">6pm Onwards</p>
+        <a href="https://maps.google.com/?q=The+Savoy+Mussoorie" target="_blank" rel="noopener" class="events__card-route">See the route</a>
+      </div>
+
+      <div class="events__card">
+        <div class="events__card-img">
+          <img src="https://framerusercontent.com/images/FMx33N0QNZEN9o98413jFSazlw.png?width=585" alt="Pre-Wedding">
+        </div>
+        <h3 class="events__card-name">Pre-Wedding</h3>
+        <p class="events__card-date">Friday, March 9th 2026</p>
+        <p class="events__card-venue">The Savoy, Mussoorie</p>
+        <p class="events__card-time">6pm Onwards</p>
+        <a href="https://maps.google.com/?q=The+Savoy+Mussoorie" target="_blank" rel="noopener" class="events__card-route">See the route</a>
+      </div>
+
+      <div class="events__card">
+        <div class="events__card-img">
+          <img src="https://framerusercontent.com/images/bjfpWWFGZoYUJgVtmcKqFbe4k.png?width=405" alt="Shaadi">
+        </div>
+        <h3 class="events__card-name">Shaadi</h3>
+        <p class="events__card-date">Friday, March 10th 2026</p>
+        <p class="events__card-venue">The Savoy, Mussoorie</p>
+        <p class="events__card-time">7pm Onwards</p>
+        <a href="https://maps.google.com/?q=The+Savoy+Mussoorie" target="_blank" rel="noopener" class="events__card-route">See the route</a>
+      </div>
+
+      <div class="events__card">
+        <div class="events__card-img">
+          <img src="https://framerusercontent.com/images/yjx8LdCZh3g7FOCG3NXovDQMCL4.png?width=352" alt="Reception">
+        </div>
+        <h3 class="events__card-name">Reception</h3>
+        <p class="events__card-date">Friday, March 11th 2026</p>
+        <p class="events__card-venue">The Savoy, Mussoorie</p>
+        <p class="events__card-time">7pm Onwards</p>
+        <a href="https://maps.google.com/?q=The+Savoy+Mussoorie" target="_blank" rel="noopener" class="events__card-route">See the route</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================== -->
+  <!-- SECTION: MAP / LOCATION -->
+  <!-- ======================== -->
+  <section class="location" id="location">
+    <div class="location__content">
+      <h2 class="location__title">See the</h2>
+      <h3 class="location__subtitle">route</h3>
+      <a href="https://maps.google.com/?q=The+Savoy+Mussoorie" target="_blank" rel="noopener" class="location__link">Click to open the map</a>
+    </div>
+  </section>
+
+  <!-- ======================== -->
+  <!-- SECTION: MEET THE COUPLE -->
+  <!-- ======================== -->
+  <section class="couple" id="couple">
+    <div class="couple__header">
+      <p class="couple__meet">MEET THE</p>
+      <h2 class="couple__title">Bride &amp; Groom</h2>
+    </div>
+
+    <div class="couple__gallery">
+      <div class="couple__carousel" id="coupleCarousel">
+        <div class="couple__track" id="coupleTrack">
+          <div class="couple__slide">
+            <img src="https://framerusercontent.com/images/gRww6exoGDvAz61zxbMcONGtfY.jpeg?width=1080" alt="Wedding shoot 1">
+          </div>
+          <div class="couple__slide">
+            <img src="https://framerusercontent.com/images/kIF0ETtgRuNBoRKEFRcc3j8TKc.jpeg?width=1080" alt="Wedding shoot 2">
+          </div>
+          <div class="couple__slide">
+            <img src="https://framerusercontent.com/images/B9rNrlRBfXrORwzfHvYWhPDX1Y.png?width=1350" alt="Wedding shoot 3">
+          </div>
+          <div class="couple__slide">
+            <img src="https://framerusercontent.com/images/liVQAaRjDSdoeY00NcyalGC1JA.png?width=1350" alt="Wedding shoot 4">
+          </div>
+        </div>
+        <button class="couple__nav couple__nav--prev" id="prevBtn" aria-label="Previous">&#8592;</button>
+        <button class="couple__nav couple__nav--next" id="nextBtn" aria-label="Next">&#8594;</button>
+      </div>
+    </div>
+
+    <p class="couple__message">
+      We are both so delighted that you are able to join us in celebrating what we hope will be one of the happiest days of our lives. The affection shown to us by so many people since our roka has been incredibly moving, and has touched us both deeply. We would like to take this opportunity to thank everyone most sincerely for their kindness. We are looking forward to see you at the wedding functions.
+    </p>
+  </section>
+
+  <!-- ======================== -->
+  <!-- SECTION: RSVP -->
+  <!-- ======================== -->
+  <section class="rsvp" id="rsvp">
+    <h2 class="rsvp__heading">Looking forward to see you</h2>
+    <a href="#" class="rsvp__btn">Click the link to RSVP</a>
+  </section>
+
+  <!-- ======================== -->
+  <!-- SECTION: THINGS TO KNOW -->
+  <!-- ======================== -->
+  <section class="info" id="info">
+    <h2 class="info__title">Things to know</h2>
+    <p class="info__subtitle">To help you feel at ease and enjoy every moment of the celebrations, we've gathered a few thoughtful details we'd love for you to know before the big day.</p>
+
+    <div class="info__grid">
+      <div class="info__card">
+        <div class="info__card-icon">
+          <img src="https://framerusercontent.com/images/HvPxJF5tlETfDdKrl00JuLQppA.png?width=305" alt="Hashtag">
+        </div>
+        <h3 class="info__card-title">Hashtag</h3>
+        <p class="info__card-text">While posting photos on social media please use the hashtag - #BadriKiDulhania</p>
+      </div>
+
+      <div class="info__card">
+        <div class="info__card-icon">
+          <img src="https://framerusercontent.com/images/EdEFe6n6lZU38I3Q3QjTMt9iEY.png?width=137" alt="Weather">
+        </div>
+        <h3 class="info__card-title">Weather</h3>
+        <p class="info__card-text">It will be mostly cloudy with temperature reaching up to 22 degrees at the venue</p>
+      </div>
+
+      <div class="info__card">
+        <div class="info__card-icon">
+          <img src="https://framerusercontent.com/images/LjMVHbCtoHm46EvfNtJa0PczbLw.png?width=121" alt="Staff">
+        </div>
+        <h3 class="info__card-title">Staff</h3>
+        <p class="info__card-text">We recommend the nearby lodge called Amba Valley near the venue for the staff members</p>
+      </div>
+
+      <div class="info__card">
+        <div class="info__card-icon">
+          <img src="https://framerusercontent.com/images/blObjK2qRN76PYOc8kI9PKAl2e8.png?width=317" alt="Parking">
+        </div>
+        <h3 class="info__card-title">Parking</h3>
+        <p class="info__card-text">Valet parking for all our guests will be available at the venue</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== -->
+  <!-- SECTION: INSTAGRAM -->
+  <!-- ======================== -->
+  <section class="social" id="social">
+    <h2 class="social__heading">Follow the action</h2>
+    <a href="https://instagram.com" target="_blank" rel="noopener" class="social__link">Click the link to open Instagram</a>
+  </section>
+
+  <!-- ======================== -->
+  <!-- SECTION: COUNTDOWN -->
+  <!-- ======================== -->
+  <section class="countdown" id="countdown">
+    <h2 class="countdown__heading">The countdown begins</h2>
+    <div class="countdown__timer" id="countdownTimer">
+      <div class="countdown__unit">
+        <span class="countdown__number" id="cDays">00</span>
+        <span class="countdown__label">D</span>
+      </div>
+      <div class="countdown__unit">
+        <span class="countdown__number" id="cHours">00</span>
+        <span class="countdown__label">H</span>
+      </div>
+      <div class="countdown__unit">
+        <span class="countdown__number" id="cMinutes">00</span>
+        <span class="countdown__label">M</span>
+      </div>
+    </div>
+    <p class="countdown__message">Mittal family is excited that you are able to join us in celebrating what we hope will be one of the happiest days of our lives.</p>
+  </section>
+
+  <!-- ======================== -->
+  <!-- FOOTER -->
+  <!-- ======================== -->
+  <footer class="footer">
+    <!-- no branding, no watermark -->
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
